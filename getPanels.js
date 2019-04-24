@@ -18,13 +18,13 @@ function delay(ms) {
 
 (async () => {
   await robot.keyTap("1", ["command"])
-/*  await delay(3500)
+  await delay(3500)
   await robot.keyTap("down")
   await delay(100)
   await robot.keyTap("down")
   await delay(100)
   await robot.keyTap("down")
-  await delay(100)*/
+  await delay(100)
   for (var i = 0; i < 30; i++) {
     await delay(8000)
     await screenshot("screenshot.png", function(error, complete) {
