@@ -5,7 +5,7 @@ function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-var numOfPanels = 10
+var numOfPanels = 18
 
 var rowLegnth = Math.ceil(numOfPanels/3);
 

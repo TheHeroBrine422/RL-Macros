@@ -3,11 +3,11 @@ const fs = require('fs')
 const gm = require('gm')
 const robot = require('robotjs')
 // Assumes rocket league is open, and at the inventory or in a trade window.
-// 1920x1200 8:5
+// 1440x2560
 
 var tradeWindow = false; // true = you are doing this from a trade window, false = you are doing this from regular inventory.
 
-var offset = [500,460];
+var offset = [30,180];
 
 if (tradeWindow) {
   offset = [400, 385];
